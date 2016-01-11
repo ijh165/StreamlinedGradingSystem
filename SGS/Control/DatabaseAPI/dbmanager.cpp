@@ -1,7 +1,8 @@
 /************************************
  *
  * File Name: dbmanager.cpp
- * Purpose  : This class is a stub
+ * Purpose  : This is the data abstraction layer of the SGS system
+ *            It manages all the DB queries and return data to the associated models.
  *
  * Authors:
  *      yklam
