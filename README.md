@@ -46,7 +46,7 @@ into
 
 where 'serverName' is your own database server name, 'userName' is your own database user name, and 'password' is the password 
 
-8) Click 'Run' (the "play" button)
+8) Click 'Run' (the 'play' button)
 
 9) Enjoy (you can login with username 'ygasai' and password 'abc123')
 
