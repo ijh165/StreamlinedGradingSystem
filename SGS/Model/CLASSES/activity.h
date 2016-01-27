@@ -5,6 +5,7 @@
  *
  * Authors:
  *      cyrusc
+ *      ihoo
  *      jhoi
  *      ftran
  *
@@ -16,12 +17,12 @@
 #define ACTIVITY_H
 
 //include statements
+#include "Model/DatabaseAPI/dbmanager.h"
+#include "Model/CLASSES/rubric.h"
+#include "Model/CLASSES/testcase.h"
 #include <QString>
 #include <QDate>
 #include <QTime>
-#include "Control/DatabaseAPI/dbmanager.h"
-#include "Model/CLASSES/rubric.h"
-#include "Model/CLASSES/testcase.h"
 
 #define ACTIVITY_TYPE_ESSAY             "Essay"
 #define ACTIVITY_TYPE_PROBLEM_SET       "Problem Set"

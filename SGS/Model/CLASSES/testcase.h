@@ -14,7 +14,8 @@
 #ifndef TESTCASE_H
 #define TESTCASE_H
 
-
+//include statements
+#include "Model/DatabaseAPI/dbmanager.h"
 #include <QVector>
 #include <QString>
 

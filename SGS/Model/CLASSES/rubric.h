@@ -13,16 +13,17 @@
 #ifndef RUBRIC_H
 #define RUBRIC_H
 
+#include "Model/DatabaseAPI/dbmanager.h"
 #include <QVector>
 #include <QString>
 
 typedef struct
 {
-  int itemNum;
-  QString itemDescription;
-  int itemGrade;
-  int itemID;
-}rubricItem_t;
+    int itemNum;
+    QString itemDescription;
+    int itemGrade;
+    int itemID;
+} rubricItem_t;
 
 class Rubric
 {

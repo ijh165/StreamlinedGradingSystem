@@ -11,7 +11,6 @@
  ***********************************/
 
 #include "rubric.h"
-#include "Control/DatabaseAPI/dbmanager.h"
 #include <QDebug>
 
 Rubric::Rubric()

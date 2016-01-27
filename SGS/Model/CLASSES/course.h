@@ -18,10 +18,11 @@
 
 #ifndef COURSE_H
 #define COURSE_H
-#include "Control/DatabaseAPI/dbmanager.h"
+
+//include statements
+#include "Model/DatabaseAPI/dbmanager.h"
 #include <QDate>
 #include <QString>
-
 
 class Course
 {

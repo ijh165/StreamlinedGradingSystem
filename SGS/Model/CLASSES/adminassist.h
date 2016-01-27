@@ -16,13 +16,13 @@
 #define ADMINASSIST_H
 
 //include statements
+#include "account.h"
+#include "course.h"
+#include "Model/DatabaseAPI/dbmanager.h"
 #include <Qvector>
 #include <QString>
 #include <QDate>
 #include <QSqlQueryModel>
-#include "account.h"
-#include "course.h"
-#include "Control/DatabaseAPI/dbmanager.h"
 
 class AdminAssist: public Account
 {

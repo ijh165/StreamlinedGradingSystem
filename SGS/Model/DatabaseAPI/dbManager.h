@@ -14,6 +14,7 @@
 
 #ifndef DBMANAGER
 #define DBMANAGER
+
 #include <QString>
 #include <QtSql>
 

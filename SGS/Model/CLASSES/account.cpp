@@ -15,7 +15,6 @@
  ***********************************/
 
 #include "account.h"
-#include "Control/DatabaseAPI/dbmanager.h"
 #include <QDebug>
 
 Account::Account()

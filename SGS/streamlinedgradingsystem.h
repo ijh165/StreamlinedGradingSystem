@@ -21,20 +21,34 @@
 #ifndef STREAMLINEDGRADINGSYSTEM_H
 #define STREAMLINEDGRADINGSYSTEM_H
 
-#include <QMainWindow>
+//include built in Qt objects
 #include <QtWidgets>
-#include <Qstack>
-#include <QVector>
 #include <QtGui>
-#include "Model/CLASSES/account.h"
-#include "Model/CLASSES/course.h"
-#include "Model/CLASSES/activity.h"
-#include "Model/CLASSES/testcase.h"
-#include "Control/DatabaseAPI/dbmanager.h"
-#include "Model/CLASSES/testcase.h"
+#include <QtGui/QDesktopServices>
+#include <QDebug>
+#include <QDir>
 #include <QFile>
-#include <QTextStream>
+#include <QFileDialog>
+#include <QMainWindow>
 #include <QMessageBox>
+#include <QRegExp>
+#include <Qstack>
+#include <QString>
+#include <QTextStream>
+#include <QVector>
+
+//include models
+#include "Model/CLASSES/academicadmin.h"
+#include "Model/CLASSES/account.h"
+#include "Model/CLASSES/activity.h"
+#include "Model/CLASSES/adminassist.h"
+#include "Model/CLASSES/course.h"
+#include "Model/CLASSES/instructor.h"
+#include "Model/CLASSES/marker.h"
+#include "Model/CLASSES/rubric.h"
+#include "Model/CLASSES/sysadmin.h"
+#include "Model/CLASSES/testcase.h"
+#include "Model/DatabaseAPI/dbmanager.h"
 
 /*======= general defines and constant definitions ============*/
 /* User roles */

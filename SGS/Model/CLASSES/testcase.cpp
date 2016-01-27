@@ -12,7 +12,6 @@
  ***********************************/
 
 #include "testcase.h"
-#include "Control/DatabaseAPI/dbmanager.h"
 #include <QDebug>
 
 TestCase::TestCase()

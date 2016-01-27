@@ -14,9 +14,8 @@
 #define SYSADMIN_H
 
 //include statements
-#include <QString>
-#include "Control/DatabaseAPI/dbmanager.h"
 #include "account.h"
+#include <QString>
 
 class SysAdmin: public Account
 {
@@ -34,16 +33,16 @@ public:
 
     //member functions
     bool createNewAccount(QString _firstName,
-                    QString _midName,
-                    QString _lastName,
-                    QString _userID,
-                    QString _employeeID,
-                    QString _password,
-                    bool _isTA,
-                    bool _isInstructor,
-                    bool _isAdmin,
-                    bool _isAdminAssist,
-                    bool _isSysAdmin);
+                          QString _midName,
+                          QString _lastName,
+                          QString _userID,
+                          QString _employeeID,
+                          QString _password,
+                          bool _isTA,
+                          bool _isInstructor,
+                          bool _isAdmin,
+                          bool _isAdminAssist,
+                          bool _isSysAdmin);
     bool modifyAccount(int _accountID, //update changes in database
                        QString _firstName,
                        QString _midName,

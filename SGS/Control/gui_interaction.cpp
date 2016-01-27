@@ -21,20 +21,6 @@
 
 #include "streamlinedgradingsystem.h"
 #include "ui_streamlinedgradingsystem.h"
-#include <QString>
-#include <QDebug>
-#include <QRegExp>
-#include <QDir>
-#include <QFile>
-#include <QtGui/QDesktopServices>
-
-#include "Control/DatabaseAPI/dbmanager.h"
-#include "Model/CLASSES/adminassist.h"
-#include "Model/CLASSES/account.h"
-#include "Model/CLASSES/sysadmin.h"
-#include "Model/CLASSES/instructor.h"
-#include "Model/CLASSES/testcase.h"
-
 
 //Instructor wishes to export grades to csv. Credits to: http://stackoverflow.com/questions/4487799/export-data-from-qtablewidget-to-csv
 void StreamlinedGradingSystem::exportGrades()

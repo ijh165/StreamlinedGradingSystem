@@ -17,7 +17,6 @@
  ***********************************/
 
 #include "instructor.h"
-#include "Control/DatabaseAPI/dbmanager.h"
 #include <QDebug>
 
 Instructor::Instructor()

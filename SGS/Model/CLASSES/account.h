@@ -18,6 +18,7 @@
 #define ACCOUNT_H
 
 //include statements
+#include "Model/DatabaseAPI/dbmanager.h"
 #include <QString>
 
 class Account

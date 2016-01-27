@@ -15,8 +15,8 @@
 #define MARKER_H
 
 //include statements
-#include <QString>
 #include "account.h"
+#include <QString>
 
 class Marker: public Account
 {

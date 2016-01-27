@@ -1,21 +1,20 @@
-#-------------------------------------------------
+#--------------------------------------------------
 #
-# Project created by QtCreator 2015-07-08T23:01:29
+# Project created by QtCreator 2015-07-08 T23:01:29
 #
-#-------------------------------------------------
+#--------------------------------------------------
 
 QT       += core gui
 QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = SGSr10
+TARGET = StreamlinedGradingSystem
 TEMPLATE = app
-
 
 SOURCES += main.cpp\
     streamlinedgradingsystem.cpp \
-    Control/GUIControl/gui_interaction.cpp \
+    Control/gui_interaction.cpp \
     Model/CLASSES/academicadmin.cpp \
     Model/CLASSES/account.cpp \
     Model/CLASSES/activity.cpp \
@@ -24,11 +23,12 @@ SOURCES += main.cpp\
     Model/CLASSES/instructor.cpp \
     Model/CLASSES/marker.cpp \
     Model/CLASSES/sysadmin.cpp \
-    Control/DatabaseAPI/dbmanager.cpp \
     Model/CLASSES/rubric.cpp \
-    Model/CLASSES/testcase.cpp
+    Model/CLASSES/testcase.cpp \
+    Model/DatabaseAPI/dbmanager.cpp
 
 HEADERS  += \
+    streamlinedgradingsystem.h \
     Model/CLASSES/academicadmin.h \
     Model/CLASSES/account.h \
     Model/CLASSES/activity.h \
@@ -37,10 +37,8 @@ HEADERS  += \
     Model/CLASSES/instructor.h \
     Model/CLASSES/marker.h \
     Model/CLASSES/sysadmin.h \
-    Control/DatabaseAPI/dbmanager.h \
-    Model/CLASSES/rubric.h \
     Model/CLASSES/rubric.h \
     Model/CLASSES/testcase.h \
-    streamlinedgradingsystem.h
+    Model/DatabaseAPI/dbManager.h
 
 FORMS    += streamlinedgradingsystem.ui

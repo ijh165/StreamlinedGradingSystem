@@ -5,6 +5,7 @@
  *
  * Authors:
  *      cyrusc
+ *      ihoo
  *      jhoi
  *      ftran
  *
@@ -13,7 +14,7 @@
  ***********************************/
 
 #include "activity.h"
-#include "Control/DatabaseAPI/dbmanager.h"
+#include <QDebug>
 
 Activity::Activity()
 {

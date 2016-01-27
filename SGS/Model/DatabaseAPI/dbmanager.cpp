@@ -12,7 +12,6 @@
  *
  ***********************************/
 
-#include <iostream>
 #include "dbManager.h"
 
 using namespace std;

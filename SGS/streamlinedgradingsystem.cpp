@@ -18,16 +18,8 @@
  *
  ***********************************/
 
-//#include <unistd.h>
 #include "streamlinedgradingsystem.h"
 #include "ui_streamlinedgradingsystem.h"
-#include "Control/DatabaseAPI/dbmanager.h"
-#include "Model/CLASSES/testcase.h"
-#include <QFile>
-#include <QTextStream>
-#include <QMessageBox>
-#include <QFileDialog>
-#include <QtGui/QDesktopServices>
 
 StreamlinedGradingSystem::StreamlinedGradingSystem(QWidget *parent) :
     QMainWindow(parent),

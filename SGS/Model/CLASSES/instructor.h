@@ -20,14 +20,14 @@
 #define INSTRUCTOR_H
 
 //include statements
+#include "marker.h"
+#include "activity.h"
 #include <QString>
 #include <QDate>
 #include <QTime>
 #include <QHash>
-#include "marker.h"
-#include "activity.h"
 
-class Instructor//: public Marker
+class Instructor: public Marker
 {
 protected:
 
