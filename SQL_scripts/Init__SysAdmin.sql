@@ -1,3 +1,6 @@
+----- TEAM INNOVATORS
+---- Created by Ivan Jonathan Hoo
+
 SET IDENTITY_INSERT Account ON;
 
 INSERT INTO Account (accountID,
