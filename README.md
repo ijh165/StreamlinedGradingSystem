@@ -30,7 +30,7 @@ Streamlined Grading System is a windows application supposedly to be used by Ins
 
 3) Execute 'Init__SysAdmin.sql' (this sql script inserts one system admin data into the Account table as you would need at least one system admin to login and create accounts)
 
-4) Go to 'SGS' folder
+4) Go to 'src' folder
 
 5) Open 'SGS.pro' (using QtCreator IDE)  
 
