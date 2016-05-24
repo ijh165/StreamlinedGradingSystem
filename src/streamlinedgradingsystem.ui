@@ -1193,7 +1193,7 @@
                 <item>
                  <widget class="QLabel" name="label_27">
                   <property name="text">
-                   <string>*Start Date(YYYY-DD-MM)</string>
+                   <string>*Start Date (YYYY-MM-DD)</string>
                   </property>
                  </widget>
                 </item>
@@ -1203,7 +1203,7 @@
                 <item>
                  <widget class="QLabel" name="label_28">
                   <property name="text">
-                   <string>*End Date(YYYY-DD-MM)</string>
+                   <string>*End Date (YYYY-MM-DD)</string>
                   </property>
                  </widget>
                 </item>
