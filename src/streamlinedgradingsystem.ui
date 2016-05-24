@@ -82,7 +82,7 @@
       <item>
        <widget class="QStackedWidget" name="stackedWidget">
         <property name="currentIndex">
-         <number>11</number>
+         <number>0</number>
         </property>
         <widget class="QWidget" name="LoginPage">
          <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -1193,7 +1193,7 @@
                 <item>
                  <widget class="QLabel" name="label_27">
                   <property name="text">
-                   <string>*Start Date(MM/DD/YYYY)</string>
+                   <string>*Start Date(YYYY-DD-MM)</string>
                   </property>
                  </widget>
                 </item>
@@ -1203,7 +1203,7 @@
                 <item>
                  <widget class="QLabel" name="label_28">
                   <property name="text">
-                   <string>*End Date(MM/DD/YYYY)</string>
+                   <string>*End Date(YYYY-DD-MM)</string>
                   </property>
                  </widget>
                 </item>
@@ -4367,7 +4367,7 @@
      <x>0</x>
      <y>0</y>
      <width>980</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
