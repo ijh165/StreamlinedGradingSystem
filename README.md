@@ -48,7 +48,7 @@ where 'serverName' is your own database server name, 'userName' is your own data
 
 8) Click 'Run' (the 'play' button)
 
-9) Enjoy (you can login with username 'ygasai' and password 'abc123')
+9) Enjoy. You can login with username 'ygasai' and password 'abc123'. The 'dat' folder contains several sample data.
 
 # Software Development Process
 1. Requirement specification
