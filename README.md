@@ -4,7 +4,7 @@ By Team Innovators
 # Description
 Term project for CMPT275 at SFU.
 
-Streamlined Grading System is a windows application supposedly to be used by Instructors and TAs so that they can efficiently grade student's assignments. Our team coded this software in C++ with Qt framework (using QtCreator IDE). Additionally our team also created an MS SQL database to store persistent data. This software is originally developed using Subversion but I put it here on GitHub after the development has finished.
+Streamlined Grading System is a Windows application supposedly to be used by Instructors and TAs so that they can efficiently grade student's assignments. Our team coded this software in C++ with Qt framework (using QtCreator IDE). Additionally our team also created an MS SQL database to store persistent data. This software is originally developed using Subversion but I put it here on GitHub after the development has finished.
 
 # Team Members:
 - Chi Chung Chan (Cyrus), cyrusc@sfu.ca 
